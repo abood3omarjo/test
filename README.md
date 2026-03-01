@@ -232,6 +232,16 @@ SESSION_DRIVER=file
 TELESCOPE_DB_CONNECTION=pgsql
 ```
 
+## change APP_SERVICE 
+```shell
+APP_SERVICE=ula-code.site
+```
+
+## TO
+```shell
+APP_SERVICE=ula-core.site
+```
+
 ## 5. Run Locally
 ```shell
 rm bootstrap/cache/config.php
